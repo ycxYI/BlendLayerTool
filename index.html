@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BlendLayer--Tool by yfavor</title>
+    <style>
+    img {
+	width: 300px;
+	height: auto;
+    }
+    img, label, canvas, button {
+	display: block;
+    }
+    </style>
+</head>
+<body>
+    <p>
+        <label> 图片1（较亮）：
+          <input id="inOne" type="file" accept="image">
+        </label>
+        <label> 图片2（较暗）：
+          <input id="inTwo" type="file" accept="image">
+        </label>
+        <button id="run"> 生成 </button>
+        </p>
+        <img id="out" />
+</body>
+<script src="js/index.js"></script>
+</html>
